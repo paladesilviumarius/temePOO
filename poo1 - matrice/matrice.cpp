@@ -205,7 +205,7 @@ matrice operator*(const matrice&m, const matrice&n)
 
     if (m.coloane != n.linii)
     {
-        std :: cout << "EROARE";
+        std :: cout << "ERR_NO_MULTIPLICATION\n";
         return temp;
     }
 
@@ -549,7 +549,10 @@ matrice operator~(const matrice& m)
     double tempDet = temp.determinant();
 
     if (tempDet == 0 || (m.linii != m.coloane))
+    {
+        std :: cout << "ERR_CANT_INVERSE\n";
         return inversa;
+    }
 
     inversa.actualizare(m.linii, m.coloane, 0);
     for (int index = 0; index < temp.linii; index++)
@@ -584,8 +587,7 @@ std :: istream&    operator>>(std :: istream &is, matrice&m)
 
 std :: ostream&    operator<<(std :: ostream &os, matrice&m)
 {
-    os << "Nr. linii: " << m.linii << '\n';
-    os << "Nr. coloane: " << m.coloane << '\n';
+    os << m.linii << ' ' << m.coloane << '\n';
 
     for (int index = 0; index < m.linii; index++)
     {

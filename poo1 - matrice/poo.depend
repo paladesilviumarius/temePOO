@@ -35,3 +35,21 @@
 1583771267 source:f:\projects\facultate\an i\sem ii\poo\poolabtema1\utils.cpp
 	"utils.h"
 
+1583772689 source:f:\projects\facultate\an i\sem ii\poo\temepoo\poo1 - matrice\main.cpp
+	"utils.h"
+
+1583771846 f:\projects\facultate\an i\sem ii\poo\temepoo\poo1 - matrice\utils.h
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	"matrice.h"
+	<cmath>
+
+1583771846 f:\projects\facultate\an i\sem ii\poo\temepoo\poo1 - matrice\matrice.h
+
+1583772458 source:f:\projects\facultate\an i\sem ii\poo\temepoo\poo1 - matrice\matrice.cpp
+	"utils.h"
+
+1583771846 source:f:\projects\facultate\an i\sem ii\poo\temepoo\poo1 - matrice\utils.cpp
+	"utils.h"
+
