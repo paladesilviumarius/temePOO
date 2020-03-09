@@ -20,12 +20,15 @@ int     main()
     B.actualizare(liniiB, coloaneB, 0);
     B.citire();
     C = ~A;
-    rezultat = C * (-B);
     if (C.getRows() == 0 && C.getCols() == 0)
-        std :: cout << "Nu exista solutie" << '\n';
+        std :: cout << "Nu exista solutie, matricea A nu are inversa" << '\n';
     else
+    {
+        rezultat = C * (-B);
         std :: cout << "Rezultatul este:" << '\n';
-    rezultat.afisare();
+        rezultat.afisare();
+    }
+
 
     std :: cout << '\n' << '\n';
     std :: cout << "Dati numarul de matrici ce trebuie memorate: ";
