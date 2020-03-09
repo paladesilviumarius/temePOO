@@ -568,10 +568,11 @@ matrice operator~(const matrice& m)
 
 std :: istream&    operator>>(std :: istream &is, matrice&m)
 {
-    is >> m.linii;
-    is >> m.coloane;
+    int     x, y;
+    is >> x;
+    is >> y;
 
-    m.actualizare(m.linii, m.coloane, 0);
+    m.actualizare(x, y, 0);
     for (int index = 0; index < m.linii; index++)
     {
         for (int jndex = 0; jndex < m.coloane; jndex++)

@@ -17,3 +17,21 @@
 1583515996 source:f:\projects\facultate\poo\poo1\utils.cpp
 	"utils.h"
 
+1583771425 source:f:\projects\facultate\an i\sem ii\poo\poolabtema1\main.cpp
+	"utils.h"
+
+1583771261 f:\projects\facultate\an i\sem ii\poo\poolabtema1\utils.h
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	"matrice.h"
+	<cmath>
+
+1583533023 f:\projects\facultate\an i\sem ii\poo\poolabtema1\matrice.h
+
+1583771563 source:f:\projects\facultate\an i\sem ii\poo\poolabtema1\matrice.cpp
+	"utils.h"
+
+1583771267 source:f:\projects\facultate\an i\sem ii\poo\poolabtema1\utils.cpp
+	"utils.h"
+

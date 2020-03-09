@@ -19,3 +19,14 @@ matrice     randomMatrix(int linii, int coloane, int modulo = 1)
     return temp;
 }
 
+void        citireAfisareNElemenete(int     n)
+{
+    matrice* listaMatrici = new matrice[n];
+    for (int i = 0; i < n; i++)
+    {
+        std :: cin >> listaMatrici[i];
+        std :: cout << listaMatrici[i];
+    }
+}
+
+

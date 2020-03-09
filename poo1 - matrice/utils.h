@@ -8,4 +8,5 @@
 #include <cmath>
 
 matrice     randomMatrix(int, int, int);
+void        citireAfisareNElemenete(int);
 #endif // UTILS_H

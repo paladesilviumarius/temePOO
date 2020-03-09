@@ -3,7 +3,7 @@
 int     main()
 {
     int     liniiA, liniiB;
-    int     coloaneA, coloaneB;
+    int     coloaneA, coloaneB, n;
     matrice A, B, O, auxOne, auxTwo, rezultat;
 
     std :: cout << "Rezolvam ecuatia A * X + B = O" << '\n';
@@ -22,5 +22,11 @@ int     main()
     rezultat = (~A) * (-B);
     std :: cout << "Rezultatul este:" << '\n';
     rezultat.afisare();
+
+    std :: cout << '\n' << '\n';
+    std :: cout << "Dati numarul de matrici ce trebuie memorate: ";
+
+    std :: cin >> n;
+    citireAfisareNElemenete(n);
     return (0);
 }
