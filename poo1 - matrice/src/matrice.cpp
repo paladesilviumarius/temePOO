@@ -1,4 +1,4 @@
-#include "utils.h"
+#include "../include/utils.h"
 
 matrice::matrice()
 {
@@ -44,6 +44,7 @@ matrice::matrice(const matrice &n)
 void    matrice::actualizare(int l = 0, int c = 0, int numar = 0)
 {
     // std :: cout << "Actualizare matrice cu L = " << l << ", C = " << c << ", si numar = " << numar << '\n';
+
     for (int index = 0; index < linii; index++)
         delete valori[index];
     if (linii != 0)

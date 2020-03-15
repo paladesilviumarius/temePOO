@@ -47,9 +47,27 @@
 
 1583771846 f:\projects\facultate\an i\sem ii\poo\temepoo\poo1 - matrice\matrice.h
 
-1583772458 source:f:\projects\facultate\an i\sem ii\poo\temepoo\poo1 - matrice\matrice.cpp
+1584311525 source:f:\projects\facultate\an i\sem ii\poo\temepoo\poo1 - matrice\matrice.cpp
 	"utils.h"
 
 1583771846 source:f:\projects\facultate\an i\sem ii\poo\temepoo\poo1 - matrice\utils.cpp
 	"utils.h"
+
+1584312683 source:f:\projects\facultate\an i\sem ii\poo\temepoo\poo1 - matrice\src\main.cpp
+	"../include/utils.h"
+
+1584312697 source:f:\projects\facultate\an i\sem ii\poo\temepoo\poo1 - matrice\src\matrice.cpp
+	"../include/utils.h"
+
+1584312697 source:f:\projects\facultate\an i\sem ii\poo\temepoo\poo1 - matrice\src\utils.cpp
+	"../include/utils.h"
+
+1583771846 f:\projects\facultate\an i\sem ii\poo\temepoo\poo1 - matrice\include\utils.h
+	<iostream>
+	<time.h>
+	<stdlib.h>
+	"matrice.h"
+	<cmath>
+
+1583771846 f:\projects\facultate\an i\sem ii\poo\temepoo\poo1 - matrice\include\matrice.h
 

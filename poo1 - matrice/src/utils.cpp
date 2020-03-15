@@ -1,4 +1,4 @@
-#include "utils.h"
+#include "../include/utils.h"
 
 matrice     randomMatrix(int linii, int coloane, int modulo = 1)
 {
